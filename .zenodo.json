@@ -1,0 +1,16 @@
+{
+  "title": "SERS spectra of nine bacterial strains on a gold nanorod array – data and analysis code",
+  "upload_type": "dataset",
+  "description": "Surface-enhanced Raman scattering (SERS) spectra of three strains each of Staphylococcus aureus, Pseudomonas aeruginosa and Escherichia coli recorded on an anisotropic gold nanorod array, together with the Python code that reproduces all analyses, figures and tables of the associated article (PCA, HCA, PERMANOVA, PCA-LDA/SVM with acquisition-order-blocked and leave-strain-out validation, DD-SIMCA). Contains the 117 analysed spectra as a preprocessed matrix and as instrument text files (Data S1) and the analysis code (Code S1).",
+  "creators": [
+    {"name": "Can Gulmus, Feyzanur", "affiliation": "Ataturk University"},
+    {"name": "Oncer, Nazli", "affiliation": "Ataturk University"},
+    {"name": "Karatas, Erkan", "affiliation": "Erzurum Technical University"},
+    {"name": "Gormez, Arzu", "affiliation": "Dokuz Eylul University"},
+    {"name": "Yilmaz, Asli", "affiliation": "Ataturk University"},
+    {"name": "Yilmaz, Mehmet", "affiliation": "Ataturk University"}
+  ],
+  "keywords": ["SERS", "bacteria", "strain differentiation", "DD-SIMCA", "leave-strain-out validation", "gold nanorod array", "machine learning"],
+  "license": "cc-by-4.0",
+  "access_right": "open"
+}
