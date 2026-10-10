@@ -4,7 +4,7 @@ Data and code accompanying:
 
 > F. Can Gulmus, N. Oncer, E. Karatas, A. Gormez, A. Yilmaz, M. Yilmaz. *Machine Learning-Assisted SERS of Bacterial Strains: Spectral Differentiation and Limits of Generalization*. [[Journal]], [[year]]. DOI: [[article DOI]]
 
-Archived version: [[10.5281/zenodo.23284999]] · Repository: [[GitHub URL]]
+Archived version: 10.5281/zenodo.23284999 · Repository: https://github.com/erkankaratas-eng/sers-gna-bacteria/tree/main
 
 ## What is in this repository
 
