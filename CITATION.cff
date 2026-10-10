@@ -24,5 +24,5 @@ version: 1.0.0
 date-released: "2026-10-10"
 license: MIT
 repository-code: "https://github.com/erkankaratas-eng/sers-gna-bacteria"
-doi: "10.5281/zenodo.23284999"
+doi: "10.5281/zenodo.23284998"
 keywords: [SERS, bacteria, strain differentiation, DD-SIMCA, leave-strain-out validation, gold nanorod array]
