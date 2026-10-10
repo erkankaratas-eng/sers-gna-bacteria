@@ -72,4 +72,5 @@ Code: MIT License (`LICENSE`). Data: Creative Commons Attribution 4.0 Internatio
 
 ## Contact
 
-[[corresponding author, e-mail]]
+Mehmet Yilmaz, mehmetylmz@atauni.edu.tr
+Asli Yilmaz, asli.yilmaz@atauni.edu.tr
