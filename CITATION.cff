@@ -21,8 +21,8 @@ authors:
     given-names: "Mehmet"
     affiliation: "Department of Nanoscience and Nanoengineering / Department of Chemical Engineering, Ataturk University, Erzurum, Turkey"
 version: 1.0.0
-date-released: "[[YYYY-MM-DD]]"
+date-released: "2026-10-10"
 license: MIT
-repository-code: "[[GitHub URL]]"
-doi: "[[Zenodo DOI]]"
+repository-code: "https://github.com/erkankaratas-eng/sers-gna-bacteria"
+doi: "10.5281/zenodo.23284999"
 keywords: [SERS, bacteria, strain differentiation, DD-SIMCA, leave-strain-out validation, gold nanorod array]
