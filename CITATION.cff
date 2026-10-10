@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite the associated article."
+title: "SERS spectra of nine bacterial strains on a gold nanorod array – data and analysis code"
+authors:
+  - family-names: "Can Gulmus"
+    given-names: "Feyzanur"
+    affiliation: "Department of Molecular Biology and Genetics, Ataturk University, Erzurum, Turkey"
+  - family-names: "Oncer"
+    given-names: "Nazli"
+    affiliation: "Department of Nanoscience and Nanoengineering, Ataturk University, Erzurum, Turkey"
+  - family-names: "Karatas"
+    given-names: "Erkan"
+    affiliation: "Department of Molecular Biology and Genetics, Erzurum Technical University, Erzurum, Turkey"
+  - family-names: "Gormez"
+    given-names: "Arzu"
+    affiliation: "Department of Biology, Dokuz Eylul University, Izmir, Turkey"
+  - family-names: "Yilmaz"
+    given-names: "Asli"
+    affiliation: "Department of Molecular Biology and Genetics, Ataturk University, Erzurum, Turkey"
+  - family-names: "Yilmaz"
+    given-names: "Mehmet"
+    affiliation: "Department of Nanoscience and Nanoengineering / Department of Chemical Engineering, Ataturk University, Erzurum, Turkey"
+version: 1.0.0
+date-released: "[[YYYY-MM-DD]]"
+license: MIT
+repository-code: "[[GitHub URL]]"
+doi: "[[Zenodo DOI]]"
+keywords: [SERS, bacteria, strain differentiation, DD-SIMCA, leave-strain-out validation, gold nanorod array]

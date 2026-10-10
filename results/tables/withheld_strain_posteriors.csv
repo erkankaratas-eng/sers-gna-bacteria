@@ -1,0 +1,13 @@
+Species,Withheld strain,Spectra,Mean P(S. aureus),Mean P(P. aeruginosa),Mean P(E. coli),Mean P(correct species),Highest posterior for correct species
+S. aureus,25923,13,0.16,0.2,0.65,0.16,0/13
+S. aureus,43300,13,0.19,0.64,0.17,0.19,1/13
+S. aureus,6538,13,0.06,0.08,0.85,0.06,0/13
+S. aureus,all three strains,39,0.14,0.3,0.56,0.14,1/39
+P. aeruginosa,10145,13,0.39,0.19,0.42,0.19,0/13
+P. aeruginosa,27853,13,0.54,0.0,0.46,0.0,0/13
+P. aeruginosa,9027,13,0.21,0.74,0.04,0.74,13/13
+P. aeruginosa,all three strains,39,0.38,0.31,0.31,0.31,13/39
+E. coli,BAA-2523,13,0.54,0.2,0.26,0.26,3/13
+E. coli,29922,13,0.6,0.15,0.25,0.25,1/13
+E. coli,K4,13,0.43,0.28,0.29,0.29,2/13
+E. coli,all three strains,39,0.52,0.21,0.27,0.27,6/39
