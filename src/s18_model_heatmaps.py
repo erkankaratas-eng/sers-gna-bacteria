@@ -32,7 +32,7 @@ for k in range(1,3): ax.axvline(3*k-.5,color='k',lw=1.2)
 tr=~TEST[order]; ax.scatter(np.repeat(-0.75,117)[~tr],np.arange(117)[~tr],marker='>',s=8,color='k',clip_on=False)
 cb=plt.colorbar(im,ax=ax,fraction=.05,pad=.03); cb.set_label('log$_{10}$(f / f$_{crit}$)   (< 0: accepted)',fontsize=7); cb.ax.tick_params(labelsize=6)
 ax.set_xlabel('Strain-specific SIMCA model')
-for ext in ['png','pdf']: plt.savefig(os.path.join(FIG,f'FigSI6_simca_distance_heatmap.{ext}'),dpi=600 if ext=='png' else None,bbox_inches='tight')
+for ext in ['png','pdf']: plt.savefig(os.path.join(FIG,f'FigS6_simca_distance_heatmap.{ext}'),dpi=600 if ext=='png' else None,bbox_inches='tight')
 # summary numbers
 acc=(M<0); own=np.array([S9.index(strain[i]) for i in order])
 print('own-model acceptance (train / test):', acc[np.arange(117),own][tr].mean().round(2), acc[np.arange(117),own][~tr].mean().round(2))

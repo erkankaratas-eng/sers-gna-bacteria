@@ -17,4 +17,4 @@ for t in ax.get_yticklabels(): t.set_color(SPC[spof[t.get_text()]]); t.set_fontw
 ax.set_xlabel('Raman shift (cm$^{-1}$)'); cb=plt.colorbar(im,ax=ax,fraction=.04,pad=.02); cb.set_label('Normalized intensity',fontsize=7); cb.ax.tick_params(labelsize=6)
 h=[plt.Line2D([],[],ls='',marker='s',ms=7,color=SPC[sp],label=sp) for sp in SPP]
 fig.legend(handles=h,loc='lower center',ncol=3,frameon=False,bbox_to_anchor=(0.5,-0.06),prop={'style':'italic','size':7.5})
-for ext in ['png','pdf']: plt.savefig(os.path.join(FIG,f'FigSI5_spectra_heatmap.{ext}'),dpi=600 if ext=='png' else None,bbox_inches='tight')
+for ext in ['png','pdf']: plt.savefig(os.path.join(FIG,f'FigS5_spectra_heatmap.{ext}'),dpi=600 if ext=='png' else None,bbox_inches='tight')

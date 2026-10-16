@@ -52,4 +52,4 @@ a=fig.add_subplot(g[0,3]); draw(a,res['Gram'],['Gram+','Gram−'],f'd) Gram stat
 a=fig.add_subplot(g[1,0:2]); draw(a,res['9'],S9,f'e) Nine strains: {res["9"].trace()}/117',rot=45,fs=7)
 a=fig.add_subplot(g[1,2:4]); draw(a,res['LSO'],['S. aureus','P. aeruginosa','E. coli'],f'f) Species, unseen strains (27 combinations pooled): {100*np.trace(cmL)/cmL.sum():.0f}%')
 fig.text(0.01,0.99,'Panels a–c, e: PCA-LDA, acquisition-order-blocked cross-validation (acquisition ranks 1–4, 5–9, 10–13 withheld). Panels d, f: strain withheld from training. Colour = row percentage; numbers = counts.',fontsize=8,va='top')
-plt.tight_layout(rect=(0,0,1,0.97)); plt.savefig(os.path.join(FIG,'FigSI2_confusion_matrices.png'),dpi=300)
+plt.tight_layout(rect=(0,0,1,0.97)); plt.savefig(os.path.join(FIG,'FigS2_confusion_matrices.png'),dpi=300)

@@ -8,4 +8,4 @@ for a,sp in zip(ax,SPP):
         k=int(np.argmax(np.abs(r))); z=sc[:,k]*np.sign(r[k]); z=(z-z.mean())/z.std(); o=np.argsort(sid[m])
         a.plot(sid[m][o],z[o],'o-',color=c,ms=4,label=f'{s} (PC{k+1}, ρ = {abs(r[k]):.2f})')
     a.set_title(sp,style='italic'); a.set_xlabel('Spectrum ID'); a.set_ylabel('Standardized within-strain PC score'); a.legend(fontsize=7,frameon=False)
-plt.tight_layout(); plt.savefig(os.path.join(FIG,'FigSI1_within_strain_trend.png'),dpi=300)
+plt.tight_layout(); plt.savefig(os.path.join(FIG,'FigS1_within_strain_trend.png'),dpi=300)

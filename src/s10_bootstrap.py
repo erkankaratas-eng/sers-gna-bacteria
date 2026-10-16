@@ -34,4 +34,4 @@ for i,sp in enumerate(SPP):
         if i==2: a.set_xlabel('Raman shift (cm$^{-1}$)')
         if k==0: a.set_ylabel('Loading')
 ax[0,0].legend(fontsize=7,frameon=False)
-plt.tight_layout(); plt.savefig(os.path.join(FIG,'FigSI3_bootstrap_loadings.png'),dpi=300)
+plt.tight_layout(); plt.savefig(os.path.join(FIG,'FigS3_bootstrap_loadings.png'),dpi=300)

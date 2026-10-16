@@ -29,25 +29,25 @@ requirements.txt                  Python package versions used
 |---|---|---|
 | `common.py` | data loading, re-normalization, helpers | – |
 | `ddsimca.py` | data-driven SIMCA (Pomerantsev, *J. Chemometrics* 2008, 22, 601) | – |
-| `s1_descriptive.py` | mean spectra, PCA, loadings, HCA and subsampling stability | Figs 2–5, Tables SI-4–SI-6 |
-| `s2_structure.py` | acquisition-order trends within strains; nested PERMANOVA | Tables SI-7, SI-8 |
-| `s3_strain_clf.py` | strain classification within species (PCA-LDA, SVM; fixed split, acquisition-order-blocked CV, repeated CV with permutation test) | Tables SI-9, SI-10 |
-| `s4_simca.py` | strain-specific DD-SIMCA, robustness over random splits, cross-species challenge | Figs 6–8, Tables 1, 2, SI-11, SI-12 |
-| `s5_species.py` | leave-strain-out species classification with exact null; species-level DD-SIMCA | Fig SI-7, Tables SI-13, SI-14 |
-| `s6_drift_fig.py` | within-strain acquisition-order trends | Fig SI-1 |
-| `s7_confusion.py` | confusion matrices; Gram status of withheld strains | Fig SI-2 |
-| `s8_windows.py` | spectral-window analysis | Fig SI-8, Table SI-16 |
-| `s9_position.py` | removal of acquisition-order-related spectral directions | Table SI-15 |
-| `s10_bootstrap.py` | bootstrap stability of PCA loadings | Fig SI-3, Table SI-5 |
-| `s11_nested.py` | nested cross-validation (number of PCs) | Table SI-17 |
-| `s12_conformal.py` | cross-conformal prediction sets | Table SI-18 |
-| `s14_alt_figure.py` | pairwise spectral distances, strain distance matrix, clustering | Fig SI-4 |
-| `s15_accuracy_curves.py` | accuracy vs number of PCs and number of training spectra | Tables SI-19, SI-20 |
-| `s16_accuracy_figure.py` | accuracy under different validation designs; model complexity and training size | Fig 10, Fig SI-9 |
-| `s17_heatmap.py` | heatmap of all analysed spectra | Fig SI-5 |
-| `s18_model_heatmaps.py` | DD-SIMCA distances of all spectra; species posteriors of withheld strains | Fig SI-6 |
+| `s1_descriptive.py` | mean spectra, PCA, loadings, HCA and subsampling stability | Figs 2–5, Tables S4–S6 |
+| `s2_structure.py` | acquisition-order trends within strains; nested PERMANOVA | Tables S7, S8 |
+| `s3_strain_clf.py` | strain classification within species (PCA-LDA, SVM; fixed split, acquisition-order-blocked CV, repeated CV with permutation test) | Tables S9, S10 |
+| `s4_simca.py` | strain-specific DD-SIMCA, robustness over random splits, cross-species challenge | Figs 6–8, Tables 1, 2, S11, S12 |
+| `s5_species.py` | leave-strain-out species classification with exact null; species-level DD-SIMCA | Fig S7, Tables S13, S14 |
+| `s6_drift_fig.py` | within-strain acquisition-order trends | Fig S1 |
+| `s7_confusion.py` | confusion matrices; Gram status of withheld strains | Fig S2 |
+| `s8_windows.py` | spectral-window analysis | Fig S8, Table S16 |
+| `s9_position.py` | removal of acquisition-order-related spectral directions | Table S15 |
+| `s10_bootstrap.py` | bootstrap stability of PCA loadings | Fig S3, Table S5 |
+| `s11_nested.py` | nested cross-validation (number of PCs) | Table S17 |
+| `s12_conformal.py` | cross-conformal prediction sets | Table S18 |
+| `s14_alt_figure.py` | pairwise spectral distances, strain distance matrix, clustering | Fig S4 |
+| `s15_accuracy_curves.py` | accuracy vs number of PCs and number of training spectra | Tables S19, S20 |
+| `s16_accuracy_figure.py` | accuracy under different validation designs; model complexity and training size | Fig 10, Fig S9 |
+| `s17_heatmap.py` | heatmap of all analysed spectra | Fig S5 |
+| `s18_model_heatmaps.py` | DD-SIMCA distances of all spectra; species posteriors of withheld strains | Fig S6 |
 | `s19_fig9.py` | distance matrix and species posteriors of withheld strains | Fig 9 |
-| `s20_posterior_table.py` | mean species posteriors of withheld strains (Fig 9b) | Table SI-21 |
+| `s20_posterior_table.py` | mean species posteriors of withheld strains (Fig 9b) | Table S21 |
 | `build_xlsx.py` | collects all tables | `results/tables/reanalysis_results.xlsx` |
 
 ## Reproducing the results

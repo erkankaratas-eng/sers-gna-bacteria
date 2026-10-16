@@ -42,7 +42,7 @@ chance(a,-0.3); a.set_xticks(x); a.set_xticklabels(['Random\nCV','Acq.-order\nbl
 a.set_xlim(-0.35,2.45); a.set_ylim(0,105); a.set_ylabel('Correct assignments (%)'); lab(a,'','Validation design')
 for ext in ['png','pdf']: fig.savefig(os.path.join(FIG,f'Fig10_validation_design.{ext}'),dpi=600 if ext=='png' else None,bbox_inches='tight')
 plt.close(fig)
-# Figure SI-9: model complexity and number of training spectra
+# Figure S9: model complexity and number of training spectra
 fig,ax=plt.subplots(1,2,figsize=(5.4,3.2),gridspec_kw={'wspace':0.3})
 a=ax[0]
 a.plot(pcs.PCs,100*pcs.strain_blocked,'-o',color=CS,lw=1.8,ms=3.5)
@@ -56,4 +56,4 @@ a.fill_between(lc.n_per_strain,100*lc.species_q25,100*lc.species_q75,color=CP,al
 a.plot(lc.n_per_strain,100*lc.species_mean,'-s',color=CP,lw=1.8,ms=3.5,label='Species')
 chance(a,8.3); a.set_xlabel('Training spectra per strain'); a.set_ylim(0,105); a.set_xticks(list(lc.n_per_strain)); lab(a,'','Number of spectra')
 fig.legend(*ax[1].get_legend_handles_labels(),loc='lower center',ncol=2,frameon=False,bbox_to_anchor=(0.5,-0.1),fontsize=7.5)
-for ext in ['png','pdf']: fig.savefig(os.path.join(FIG,f'FigSI9_model_complexity_training_size.{ext}'),dpi=600 if ext=='png' else None,bbox_inches='tight')
+for ext in ['png','pdf']: fig.savefig(os.path.join(FIG,f'FigS9_model_complexity_training_size.{ext}'),dpi=600 if ext=='png' else None,bbox_inches='tight')

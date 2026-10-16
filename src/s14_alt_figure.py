@@ -47,5 +47,5 @@ ax.set_title('Clustering the strains\nmixes the species',loc='left',fontsize=8.3
 ax.text(-0.42,1.13,'c',transform=ax.transAxes,fontsize=12,fontweight='bold')
 h=[plt.Line2D([],[],ls='',marker='s',ms=7,color=SPC[sp],label=sp) for sp in SPP]
 fig.legend(handles=h,loc='lower center',ncol=3,frameon=False,fontsize=7.5,bbox_to_anchor=(0.5,-0.08),prop={'style':'italic','size':7.5})
-for ext in ['png','pdf','svg']: plt.savefig(os.path.join(FIG,f'FigSI4_distances.{ext}'),dpi=600 if ext=='png' else None,bbox_inches='tight')
+for ext in ['png','pdf','svg']: plt.savefig(os.path.join(FIG,f'FigS4_distances.{ext}'),dpi=600 if ext=='png' else None,bbox_inches='tight')
 print([round(m,2) for m in med],[len(g) for g in groups])

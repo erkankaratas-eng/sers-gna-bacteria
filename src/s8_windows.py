@@ -44,4 +44,4 @@ ax[2].plot(df.centre,100*df.species_LSO_mean,'s-',color='#CC79A7',ms=3,label='sp
 ax[2].axhline(100/3,color='grey',ls='--',lw=.8); ax[2].text(W[0]+5,35,'chance',fontsize=7,color='grey')
 ax[2].set_ylabel('Accuracy (%)'); ax[2].set_xlabel('Raman shift (cm$^{-1}$)'); ax[2].legend(fontsize=8,frameon=False,loc='center right'); ax[2].set_ylim(0,105)
 ax[2].set_title('c) PCA-LDA (3 PCs) on each window',loc='left',fontsize=9)
-plt.tight_layout(); plt.savefig(os.path.join(FIG,'FigSI8_spectral_windows.png'),dpi=300)
+plt.tight_layout(); plt.savefig(os.path.join(FIG,'FigS8_spectral_windows.png'),dpi=300)
